@@ -10,7 +10,7 @@ I design, build, and ship full-stack platforms solo — Go APIs, PostgreSQL, Rea
 
 | Project | What it is | Stack |
 |---|---|---|
-| **[Muster](https://github.com/diagnosis/muster)** · [live](https://muster.safadev.app) | Group-hiking platform with built-in carpool coordination. Built TDD-first with a three-layer test pyramid; CI runs every PR against a throwaway Postgres. | Go · Chi · pgx · PostgreSQL · React · Playwright · GitHub Actions |
+| **[Muster](https://github.com/diagnosis/muster)** · [live](https://muster.safadev.app) | Group-hiking platform with built-in carpool coordination. Built TDD-first; CI runs every PR against a disposable Neon Postgres branch. | Go (stdlib) · pgx · PostgreSQL/Neon · React · Playwright · GitHub Actions |
 | **LuxSUV** · [live](https://rider.luxsuv.us) | Luxury ride-booking platform — Go API, React web app, and a React Native iOS app on the App Store, with Stripe payments. | Go · React · React Native · Stripe · Playwright |
 | **[DeployWatch](https://github.com/diagnosis/deploy-watch)** · [live](https://deploywatch.safadev.app) | Real-time GitHub deployment monitor with SSE/WebSocket hubs and push notifications. | Go · Flutter · APNs |
 | **[go-toolkit](https://github.com/diagnosis/go-toolkit)** | Reusable Go module powering my services: typed errors, JSON responder, structured logging, auth, rate-limiting, and correlation-ID middleware. | Go |
